@@ -15,11 +15,11 @@
 }
 
 .box3 {
-    background-color: red;
+    background-color: lightcoral;
 }
 
 .box4 {
-    background-color: yellow;
+    background-color: lightskyblue;
 }
 
 .box5 {
@@ -50,6 +50,15 @@
 .container {
     display: flex;
     border: 10px solid goldenrod;
+    /* min-height: 100vh; */
     height: 100vh;
     /* 100% height | vh = viewport height */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    /* flex-item */
+    width: 300px;
+    margin: 10px;
 }
