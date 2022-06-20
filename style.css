@@ -1,0 +1,55 @@
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.box1 {
+    background-color: aquamarine;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: red;
+}
+
+.box4 {
+    background-color: yellow;
+}
+
+.box5 {
+    background-color: green;
+}
+
+.box6 {
+    background-color: orange;
+}
+
+.box7 {
+    background-color: purple;
+}
+
+.box8 {
+    background-color: brown;
+}
+
+.box9 {
+    background-color: gray;
+}
+
+.box10 {
+    background-color: black
+}
+
+
+.container {
+    display: flex;
+    border: 10px solid goldenrod;
+    height: 100vh;
+    /* 100% height | vh = viewport height */
+}
