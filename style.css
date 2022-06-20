@@ -49,16 +49,15 @@
 
 .container {
     display: flex;
-    border: 10px solid goldenrod;
-    /* min-height: 100vh; */
-    height: 100vh;
-    /* 100% height | vh = viewport height */
-    flex-direction: row;
-    flex-wrap: wrap;
+
 }
 
 .box {
     /* flex-item */
-    width: 300px;
-    margin: 10px;
+    flex: 1;
+}
+
+/* default order fot flex items is zero */
+.box3 {
+    order: 1;
 }
