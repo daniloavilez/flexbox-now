@@ -1,6 +1,6 @@
 .box {
     color: white;
-    font-size: 100px;
+    font-size: 20px;
     text-align: center;
     text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -49,15 +49,8 @@
 
 .container {
     display: flex;
-
-}
-
-.box {
-    /* flex-item */
-    flex: 1;
-}
-
-/* default order fot flex items is zero */
-.box3 {
-    order: 1;
+    justify-content: space-between;
+    border: 10px solid mistyrose;
+    flex-direction: column;
+    min-height: 100vh;
 }
