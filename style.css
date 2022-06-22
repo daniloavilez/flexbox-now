@@ -50,27 +50,15 @@
 .container {
     display: flex;
     border: 10px solid mistyrose;
-    align-items: center;
     height: 100vh;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* main axis */
+
+    align-content: center;
+    /* cross axis */
 }
 
-.box1 {
-    font-size: 30px;
-}
-
-.box3 {
-    font-size: 150px;
-}
-
-.box4 {
-    font-size: 200px;
-}
-
-.box5 {
-    font-size: 10px;
-}
-
-.box10 {
-    font-size: 77px;
+.box {
+    width: 200px;
 }
