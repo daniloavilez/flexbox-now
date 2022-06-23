@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Mobile Demo</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <header class="top">
+                <h1>Mobile Demo</h1>
+            </header>
+
+            <nav class="flex-nav">
+                <a href="#" class="toggleNav"><i class="fa fa-bars"></i> Menu</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li class="social">
+                        <a href="https://twitter.com/danilo_avilez">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="https://github.com/daniloavilez">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="https://instagram.com/godavilez">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="hero">
+                <img src="https://loremflickr.com/1000/600" alt="">
+            </section>
+
+            <section class="details">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quisquam, quidem, quisquam.
+                </p>
+            </section>
+
+            <section class="signup">
+                <form action="" class="signup">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="submit" value="Sign Up">
+                </form>
+            </section>
+
+            <footer>
+                <p>&copy; 2016 Mobile Demo</p>
+            </footer>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.toggleNav').click(function() {
+                    $('.flex-nav ul').toggleClass('open');
+                    // $('.flex-nav ul').slideToggle();
+                });
+            });
+        </script>
+
+    </body>
+</html>
