@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    background-color: purple;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+
+footer {
+    display: block;
+    background-color: purple;
+    text-align: center;
+}
+
+a.button {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+.content img {
+    max-width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.app-footer a {
+    text-align: center;
+    padding: 10px;
+    background: purple;
+    border-right: 1px solid black;
+}
+
+.app-footer a:first-child {
+    border-left: 0;
+}
+
+.app-footer i {
+    display: block;
+    color: white;
+}
+
+/* flex container */
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-wrap > * {
+    flex: 1 1 auto;
+}
+
+.app-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    line-height: 1.6;
+    background: white;
+}
+
+.app-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-footer a {
+    flex: 1;
+}

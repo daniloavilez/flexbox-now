@@ -43,10 +43,6 @@ video {
     border-right: 0;
 }
 
-input[type="text"] {
-    width: 100%;
-}
-
 input[type="submit"] {
     background: mediumorchid;
     color: white;
@@ -60,10 +56,13 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 
 .flex-form {
     display: flex;
     border: 20px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    
 }
+
